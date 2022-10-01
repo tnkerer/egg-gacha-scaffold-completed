@@ -1,19 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom/client";
+import "./index.css";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  <main>
+    <header>
+      <div className="connect">Connect wallet</div>
+    </header>
+    <div className="app">
+      <div className="wrapper">
+        <div className="infosContainer">
+          <div className="infos">
+            <span>MY EGT TOKENS: 0</span>
+            <span>MY EGT: 0</span>
+          </div>
+          <div className="infosButton">DROP ME MORE EGT!</div>
+        </div>
+        <div className="mintContainer">
+          <div className="left">
+            <img src="/leftArrowColored.svg" alt="Left Arrow" />
+          </div>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+          <div className="center">
+            <div className="count">0/0</div>
+            <div className="nft">
+              <img src="/interrogation.svg" alt="No NFT" />
+            </div>
+            <div className="mintButton">DROP ME MORE EGT!</div>
+          </div>
+
+          <div className="right">
+            <img src="/rightArrowColored.svg" alt="Left Arrow" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+);
