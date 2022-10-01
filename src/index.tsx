@@ -14,7 +14,7 @@ root.render(
         <div className="infosContainer">
           <div className="infos">
             <span>MY EGT TOKENS: 0</span>
-            <span>MY EGT: 0</span>
+            <span>MY EGGS: 0</span>
           </div>
           <div className="infosButton">DROP ME MORE EGT!</div>
         </div>
