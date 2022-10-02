@@ -126,8 +126,18 @@ span {
   cursor: pointer;
 }
 
+.left:active {
+  position:relative;
+  top:1px;
+}
+
 .right > img {
   cursor: pointer;
+}
+
+.right:active {
+  position:relative;
+  top:1px;
 }
 
 .center {
