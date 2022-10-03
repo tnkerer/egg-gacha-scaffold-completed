@@ -31,6 +31,24 @@ header {
   padding-right: 100px;
 }
 
+.background {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.decoration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.dragon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .connect {
   width: 230px;
   height: 50px;
@@ -49,8 +67,8 @@ header {
 }
 
 .connect:active {
-  position:relative;
-  top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .app {
@@ -67,6 +85,7 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  z-index: 2;
 }
 
 .infosContainer {
@@ -108,8 +127,8 @@ span {
 }
 
 .infosButton:active {
-  position:relative;
-  top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .mintContainer {
@@ -127,8 +146,8 @@ span {
 }
 
 .left:active {
-  position:relative;
-  top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .right > img {
@@ -136,8 +155,8 @@ span {
 }
 
 .right:active {
-  position:relative;
-  top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .center {
@@ -189,6 +208,6 @@ span {
 }
 
 .mintButton:active {
-  position:relative;
-  top:1px;
+  position: relative;
+  top: 1px;
 }
