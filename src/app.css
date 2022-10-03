@@ -64,6 +64,7 @@ header {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  z-index: 2;
 }
 
 .connect:active {
@@ -190,6 +191,10 @@ span {
   flex-direction: column;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+.nft > img {
+  width: 60%;
 }
 
 .mintButton {

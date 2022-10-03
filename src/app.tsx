@@ -23,7 +23,7 @@ const App: React.FC = () => {
           <img src="/images/decorator.svg" alt="Decoration" />
         </div>
         <div className="dragon">
-          <img src="/images/dragon.png" alt="Dragon" />
+          <img src="/images/dragon.webp" alt="Dragon" />
         </div>
       </div>
       <header>
@@ -57,10 +57,10 @@ const App: React.FC = () => {
               </div>
               <div className="nft">
                 {slide === 0 ? (
-                  <img src="/images/interrogation.svg" alt="No NFT" />
+                  <img src="/images/interrogation.webp" alt="No NFT" />
                 ) : (
                   <img
-                    src={`/images/Eggs/${EGTS[slide - 1].image}.svg`}
+                    src={`/images/Eggs/${EGTS[slide - 1].image}.webp`}
                     alt="No NFT"
                   />
                 )}
