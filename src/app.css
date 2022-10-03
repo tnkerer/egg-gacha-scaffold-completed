@@ -37,16 +37,16 @@ header {
   position: absolute;
 }
 
-.decoration {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
 .dragon {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.decoration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .connect {
