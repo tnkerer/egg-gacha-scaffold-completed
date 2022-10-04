@@ -56,7 +56,7 @@ export const BlockchainProvider = ({ children }) => {
                 let zeros = "000"
                 for (let i = 0; i < Number(res); i++) {
                     eggNFT?.tokenOfOwnerByIndex(i).then((res) => {
-                      _EGGS.push( { image : `https://ipfs.io/ipfs/Qmdvr95JsHCnuKVEdAX784qcYDK9HndbpPMT7FDopdF8eQ/eggo${zeros.slice((String(res).length))}${res}.png`})
+                      _EGGS.push( { image : `https://gateway.pinata.cloud/ipfs/Qmdvr95JsHCnuKVEdAX784qcYDK9HndbpPMT7FDopdF8eQ/eggo${zeros.slice((String(res).length))}${res}.png`})
                     });
                   }
                   setEGGS(_EGGS);
