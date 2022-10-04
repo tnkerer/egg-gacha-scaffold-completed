@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
 import Web3ModalProvider from "./contexts/Web3ModalProvider";
+import BlockchainProvider from "./contexts/BlockchainProvider";
 import App from "./app";
 
 const root = ReactDOM.createRoot(
@@ -8,6 +9,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <Web3ModalProvider>
-    <App />
+    <BlockchainProvider>
+      <App />
+    </BlockchainProvider>
   </Web3ModalProvider>
 );
